@@ -6,7 +6,26 @@
     --color_4: #FFB9B9;
 }
 
+.row .experiencia-columna:hover,.proyecto:hover {
+    cursor: url('/images/angel_rojo.png'), auto;
+}
+
+.row a,
+.row button {
+    cursor: url('/images/angel_rojo.png'), auto;
+}
+
+
 /* Navbar */
+.navbar-brand {
+    cursor: url('/images/angel_verde.png'), auto;
+}
+
+.navbar a,
+.navbar button {
+    cursor: url('/images/angel_verde.png'), auto;
+}
+
 .navbar {
     padding: 2rem;
     background-color: #f5f6f7;
@@ -15,6 +34,7 @@
 
 .navbar-nav {
     align-items: center;
+    cursor: url('/images/angel_rojo.png'), auto;
 }
 
 .navbar-collapse {
